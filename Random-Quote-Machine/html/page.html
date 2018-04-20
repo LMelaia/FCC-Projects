@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+  <!--External project dependencies-->
+  <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  </script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+  </script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  </script>
+
+  <!--Internal project dependencies-->
+  <link rel="stylesheet" type="text/css" href="../css/page.css">
+  <script src="../js/page.js"></script>
+
+  <title>Random Quote Machine</title>
+</head>
+
+<body>
+  <div class="text-center quote-block">
+    <h2>Random Quote Machine</h2> By Luke Melaia
+    <div class="block-quote">
+      <h3 class="quote" id="quote">"This is the quote"</h3>
+      <p class="text-right credit" id="credit">- By Someone</p>
+    </div>
+    <div class="column">
+      <div class="col-xs-2">
+        <button class="btn btn-default btn-twit" onCLick="tweet()">
+          <i class="fa fa-twitter"></i> Tweet
+        </button>
+      </div>
+      <div class="col-xs-3">
+        <button class="btn btn-default btn-new" onClick="getQuote()">
+          Generate Random Quote
+        </button>
+      </div>
+    </div>
+  </div>
+</body>

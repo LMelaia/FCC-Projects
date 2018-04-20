@@ -1,0 +1,48 @@
+body {
+  background-color: grey;
+}
+
+/* The block in the center with everything in it */
+
+.quote-block {
+  height: 280px;
+  width: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -140px;
+  margin-left: -250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+/* Every button */
+
+.btn {
+  background-color: #e2e2e2;
+}
+
+/* The div element with the quote and credit */
+
+.block-quote {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: #dbdbdb;
+}
+
+/* Credit styling */
+
+.credit {
+  padding-right: 10px;
+}
+
+/* The new quote button */
+
+.btn-new {
+  margin-left: 180px;
+}
