@@ -1,0 +1,80 @@
+.parallax {
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+}
+
+.front {
+  background-image: url("https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg?cs=srgb&dl=abstract-art-background-633409.jpg&fm=jpg");
+  background-color: #afb1c9;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.title {
+  font-family: "Rock Salt", cursive;
+  font-weight: 200;
+  font-size: 50px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-top: 80px;
+
+  @media (min-width: 768px) {
+    font-size: 90px;
+  }
+}
+
+.jobtitle {
+  font-size: 30px;
+  font-weight: 50;
+  color: lightgrey;
+}
+
+.languages {
+  font-size: 25px;
+  font-weight: 250;
+}
+
+.about {
+  background-image: url("https://images.pexels.com/photos/408517/pexels-photo-408517.jpeg?cs=srgb&dl=backlit-beach-blurred-408517.jpg&fm=jpg");
+  padding-left: 200px;
+  padding-top: 100px;
+  font-size: 20px;
+  color: white;
+}
+
+.about-header {
+  font-size: 50px;
+  color: white;
+}
+
+.about-h2 {
+  padding-bottom: 50px;
+}
+
+.portfolio {
+  background-image: url("https://images.pexels.com/photos/163999/pexels-photo-163999.jpeg?cs=srgb&dl=abstract-antique-backdrop-163999.jpg&fm=jpg");
+}
+
+.projects-title {
+  font-size: 50px;
+  color: white;
+  padding-top: 50px;
+}
+
+.thmbnail {
+  padding-bottom: 20px;
+}
+
+.pro-title {
+  color: white;
+  font-size: 20px;
+}
